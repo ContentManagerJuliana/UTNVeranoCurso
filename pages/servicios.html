@@ -11,13 +11,90 @@
     <header>
 
     </header>
-
+<hr>
     <nav>
-
+        <ul>
+        <li>
+            <a href="../index.html">
+            Home
+            </a>
+        </li>
+        <li><a href="./productos.html">
+            Productos
+            </a>
+        </li>
+        <li><a href="">Servicios</a></li>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+        </ul>
     </nav>
-
+<hr>
     <main>
 
+        <h1>
+            Soy la Pagina de Servicios
+        </h1>
+        <h2>
+            Formularios - Todos los datos son obligatorios
+        </h2>
+
+        <!-- Etiquetas para los formularios -->
+        <form >
+            <form action="database.js" method="post" id="formulario" name="formulario">
+
+                <label for="nombre">Nombre:</label>
+
+                <!-- input: espacio para que el usuario ingrese datos que necesitamos .. requerid hace dato -->
+                <input type="text" id="nombre" name="nombre" required>
+            <br>
+                <label for="apellido">Apellido: </label>
+                <input type="text" id="apellido" name="apellido" required>
+            <br>
+                <label for="password">Password:</label>
+                <input type="password" name="password" id="password" required>
+            <br>
+                <label for="edad">Edad: </label>
+                <input type="number" name="edad" id="edad">
+            <br>
+                <label for="genero">Género</label>
+                <br>
+                <label for="Hombre">Hombre</label>
+                <input type="radio" name="Género" value="Hombre">
+                <label for="Mujer">Mujer</label>
+                <input type="radio" name="Género" value="Mujer">
+                <label for="Otro">Otro</label>
+                <input type="radio" name="Género" value="otro">
+            <br>
+            <label for="provincia">Provincia</label>
+            <select name="provincia" id="provincia">
+                <option value="CABA">CABA</option>
+                <option value="Mendoza">MENDOZA</option>
+                <option value="Salta">SALTA</option>
+            </select>
+            <br>
+                <label for="email">EMail:</label>
+                <input type="email" name="email" id="email">
+            <br>
+                <label for="fecha">Fecha de Nacimiento</label>
+                <input type="date" name="date" id="date">
+            <br>
+            <label for="confirma">Acepta los términos y condiciones</label>
+                <input type="checkbox" name="confirma" id="confirma" value="1" required>
+                <br>
+                <input type="submit" class="button" value="Enviar">
+            <br>
+                <button type="submit">Envío de datos</button>
+            <br>
+                <button type="reset">Borrar Formulario</button>
+
+        </form>
+        <hr>
     </main>
+
+    <hr>
+
+    <footer>
+
+    </footer>
 </body>
 </html>
