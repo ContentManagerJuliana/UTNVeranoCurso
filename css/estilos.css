@@ -1,0 +1,21 @@
+
+/* Estructura de una regla de estilos de CSS */
+/* 1. Llamamos a la etiqueta que queremos darle estilos */
+/* 2.Abrimos y cerramos llaves para los estilos  {}*/
+/* 3. Llamamos a la propiedad y le damos un valor */
+body{
+background-color: darkred;
+}
+
+header {
+    background-color: aliceblue;
+}
+
+main {
+    color: rgb(255, 255, 255);
+}
+
+p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+}
